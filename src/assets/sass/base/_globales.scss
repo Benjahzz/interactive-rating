@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin: 0;
+  background-color: $colorAzulOscuro2;
+}
+.container {
+  width: 90%;
+  max-width: 160rem;
+  margin: 5rem auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.card{
+    background-color: $colorGrisMedium;
+    width: 50rem;
+    height: 45rem;
+    border-radius: 2rem;
+    margin: 20rem 2rem;
+}
+.btn{
+  background-color: $colorNaranja;
+  padding: 1.4rem 1rem;
+  border-radius: 2rem;
+  color: white;
+  font-family: inherit;
+  letter-spacing: .4rem;
+  border: none;
+  box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+main{
+  display: flex;
+  justify-content: center;
+}
